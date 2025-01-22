@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background: default;
+    padding: 20px;
+}
+.container div{
+    height: auto;
+    width: auto;
+}
+.container-2{ 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.container-2 div{
+    background: default;
+    max-height: 250px;
+}
+
+header{
+   background-image: url(/assets/bg-hero-desktop.svg);
+}
+#head-txt{
+    text-align: center;
+    text-decoration: solid;
+    height=auto;
+     width="40vw";
+    align: center;
+}
+#head-img{
+  
+}
+.btn-head{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 120px;
+}
+.getfree{
+    background-color:#FE52C0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
