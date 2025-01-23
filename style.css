@@ -1,3 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    height: 90vh;
+    max-width: 1440px;
+    
+}
+header{
+    height: 90vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    background-image: url(assets/bg-hero-desktop.svg);
+    padding-top: 5vh;
+ }
+ .all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px blue solid; */
+}
+
+ .allbody{display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 80px;
+  width: 90%;
+    max-width: 1440px;
+ }
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -7,47 +38,63 @@
     padding: 20px;
 }
 .container div{
-    height: auto;
-    width: auto;
+    height: 5vh;
 }
 .container-2{ 
+    height: 90vh;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    gap: 80px;
-    flex-wrap: wrap;
+    align-items: center;
+    
 }
 .container-2 div{
-    background: default;
-    max-height: 250px;
+}
+h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    margin: 0 auto; /* Center the container */
+  text-align: left
+}
+p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 0 auto; /* Center the container */
+  text-align: left;
+  padding-top: 30px;
 }
 
-header{
-   background-image: url(/assets/bg-hero-desktop.svg);
-}
 #head-txt{
+    width: 40%;
+    margin: 10px auto; /* Center the line */
+    border: none;
     text-align: center;
-    text-decoration: solid;
-    height=auto;
-     width="40vw";
-    align: center;
+    padding-left: 20px;
+   
 }
 #head-img{
-  
+    width: 60%;
 }
 .btn-head{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
     border: none;
-    background-color: white;
-    height: 30px;
-    width: 120px;
 }
-.getfree{
+
+.getfreebtn{
     background-color:#FE52C0;
     border: none;
     border-radius: 20px;
     color: white;
-    height: 40px;
-    width: 200px;
-}
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    }
+
+
