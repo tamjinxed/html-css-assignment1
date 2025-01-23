@@ -2,8 +2,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 18px;
-    height: 90vh;
-    max-width: 1440px;
+   
     
 }
 header{
@@ -17,17 +16,16 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 2px blue solid; */
+   
 }
 
- .allbody{display: flex;
+ .allbody{width: 100%;
+    max-width: 1440px;
+    
+    display: flex;
     flex-direction: column;
     justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 80px;
-  width: 90%;
-    max-width: 1440px;
+   
  }
 .container{
     display: flex;
@@ -52,20 +50,20 @@ header{
 h1 {
     font-family: "Poppins";
     font-weight: 600;
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto; 
   text-align: left
 }
 p{
     font-family: "Open Sans";
     font-weight: 400;
-    margin: 0 auto; /* Center the container */
+    margin: 0 auto; 
   text-align: left;
   padding-top: 30px;
 }
 
 #head-txt{
     width: 40%;
-    margin: 10px auto; /* Center the line */
+    margin: 10px auto;
     border: none;
     text-align: center;
     padding-left: 20px;
@@ -98,3 +96,57 @@ p{
     }
 
 
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vh;
+        width: 100%;
+    }
+    
+    .box-one {
+        height: 450px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .box-two {
+        height: 450px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow:rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        display: flex;
+        gap: 20%;
+        align-items: center;
+    }
+    
+    .box-all {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .box-one-text {
+        width: 55%;
+        padding-left: 10%;
+    }
+    
+    .box-one-img {
+        width: 50%;
+        padding-right: 10%;
+    }
+    
+    .box-two-text {
+        width: 50%;
+        padding-right: 10%;
+    }
+    
+    .box-two-img {
+        width: 30%;
+        padding-left: 10%;
+    }
+    
